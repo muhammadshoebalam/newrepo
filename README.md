@@ -260,3 +260,44 @@ remote: To https://github.com/muhammadshoebalam/newrepo.git
  * [new branch]      bugfix-newbug -> bugfix-newbug
 
 ===============END================
+
+#
+Merge
+======================
+
+git switch develop
+
+git merge --no-ff feature-featurebranch1 -m "Merge featurebranch
+
+git push origin develop
+
+
+#
+Rebase
+======================
+
+git switch feature-featurebranch1
+
+git rebase develop
+
+git push origin feature-featurebranch1 --force
+
+#
+Squash
+======================
+git switch feature-featurebranch1
+
+git rebase -i HEAD~5
+
+git push origin feature-featurebranch1 --force
+
+#
+Reword
+======================
+git switch feature-featurebranch1
+
+git rebase -i HEAD~3
+
+git push origin feature-featurebranch1 --force
+
+
