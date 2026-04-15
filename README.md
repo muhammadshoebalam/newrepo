@@ -78,7 +78,9 @@ README.md
 
 =============END=============
 
-##command for develop and feature branch
+#
+command for develop and feature branch
+=================================================
 shoeb@LAPTOP-P61S2J2C:/mnt/c/Users/SHOEB/ostad/newrepo$ git branch develop
 
 shoeb@LAPTOP-P61S2J2C:/mnt/c/Users/SHOEB/ostad/newrepo$ git switch develop
