@@ -206,3 +206,57 @@ shoeb@LAPTOP-P61S2J2C:/mnt/c/Users/SHOEB/ostad/newrepo$ ls
 README.md  testfile.txt  testfile1.txt
 
 ================End==================
+
+#
+command for new bugfix branch
+==========================================
+shoeb@LAPTOP-P61S2J2C:/mnt/c/Users/SHOEB/ostad/newrepo$ git switch develop
+
+Switched to branch 'develop'
+
+shoeb@LAPTOP-P61S2J2C:/mnt/c/Users/SHOEB/ostad/newrepo$ git switch -c bugfix-newbug
+
+Switched to a new branch 'bugfix-newbug'
+
+shoeb@LAPTOP-P61S2J2C:/mnt/c/Users/SHOEB/ostad/newrepo$ git add .
+
+shoeb@LAPTOP-P61S2J2C:/mnt/c/Users/SHOEB/ostad/newrepo$ nano testbug.txt
+
+shoeb@LAPTOP-P61S2J2C:/mnt/c/Users/SHOEB/ostad/newrepo$ ls
+
+README.md  testbug.txt  testfile.txt  testfile1.txt
+
+shoeb@LAPTOP-P61S2J2C:/mnt/c/Users/SHOEB/ostad/newrepo$ git add .
+
+shoeb@LAPTOP-P61S2J2C:/mnt/c/Users/SHOEB/ostad/newrepo$ git commit -m "new bug file added"
+
+[bugfix-newbug 82363d2] new bug file added
+
+ 1 file changed, 1 insertion(+)
+
+ create mode 100644 testbug.txt
+
+shoeb@LAPTOP-P61S2J2C:/mnt/c/Users/SHOEB/ostad/newrepo$ git push origin bugfix-newbug
+
+Enumerating objects: 4, done.
+
+Counting objects: 100% (4/4), done.
+
+Delta compression using up to 16 threads
+
+Compressing objects: 100% (2/2), done.
+
+Writing objects: 100% (3/3), 372 bytes | 37.00 KiB/s, done.
+
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+
+remote:
+
+remote: Create a pull request for 'bugfix-newbug' on GitHub by visiting:
+
+remote: https://github.com/muhammadshoebalam/newrepo/pull/new/bugfix-newbug
+
+remote: To https://github.com/muhammadshoebalam/newrepo.git
+ * [new branch]      bugfix-newbug -> bugfix-newbug
+
+===============END================
