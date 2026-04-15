@@ -1,0 +1,21 @@
+#
+Merge:
+==========
+
+> Combines two branches and creates a new merge commit
+
+> Shows branching structure with explicit merge points
+
+> Can make history look messy with many merge commits
+
+
+#
+Rebase:
+==========
+
+> Moves commits from one branch on top of another
+
+> Produces a clean and linear history
+
+> Rewrites history, requires force push, risky in team workflows
+

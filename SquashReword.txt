@@ -1,0 +1,14 @@
+#
+Squash: 
+===================
+Combines multiple commits into a single commit. Used for clean up the messy history.
+
+Command: git rebase -i HEAD~5
+
+
+#
+Reword:
+===================
+Changes the commit message without altering commit content. Use for Fixing or improving the commit messages.
+
+Command: git rebase -i HEAD~3
